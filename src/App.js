@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import './style/index.css'
+import Banner from './components/Banner'
+import Header from './components/Header'
+import Gallery from './components/Gallery'
+import Button from './components/Button';
+import Footer from './components/Footer';
+import Promotion from './components/Promotion';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+function App () {
+ let isLoggedIn = false;
+ let title = "U-Dev"
+ return (
+  <>
+  <Header />
+  <div className='banner'>
+  <Banner backgroundClass="banner">
+    <h1><span className='dull'>Store.</span> The best way to buy the products you <span className='dull'>love.</span></h1>
+    
+    <Button isLoggedIn={!isLoggedIn} className="primary" />
+    <Button isLoggedIn={isLoggedIn} className="secondary" />
+  </Banner>
+  </div>
+  <Gallery />
+  <div className='promotion'>
+    <Promotion />
+  </div>
+  <Footer title = { title } />
+  </>
+ )
 }
 
-export default App;
+export default App
+
+
