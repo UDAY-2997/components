@@ -7,7 +7,7 @@ class Header extends Component {
       <header>
         <div className='container flexbox'>
           <div className='logo'>
-            <a href='https://github.com/UDAY-2997' target='_blank'>
+            <a href='https://github.com/UDAY-2997' target='_blank' rel="noreferrer">
             <img src={logoImage} alt='Logo' />
             </a>
           </div>
