@@ -43,7 +43,7 @@ ul li {
 
 li:hover {
   color: #fff;
-  background-color: #3db5e8;
+  background: linear-gradient(to right, #a3dbf4, #3db5e8);
 }
 
 .banner {
@@ -54,6 +54,8 @@ li:hover {
 
 .banner video {
   width: 100%;
+  object-fit: cover;
+  height: 100vh;
 }
 
 .dull {
@@ -64,7 +66,7 @@ li:hover {
 
 .banner-content h1 {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -78,10 +80,13 @@ li:hover {
 
 .banner .primary {
   position: absolute;
-  top: 80%;
-  left: 55%;
+  top: 56%;
+  left: 52%;
   transform: translate(-50%, -50%);
-  background-color: #3db5e8;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  background: linear-gradient(to right, #ff3839, #95162b);
   color: white;
   padding: 10px 22px;
   border: none;
@@ -89,12 +94,13 @@ li:hover {
   font-size: 16px;
   transform-origin: center center;
   cursor: pointer;
+  margin-left: 20px;
 }
 
 .banner .secondary {
   position: absolute;
-  top: 80%;
-  left: 45%;
+  top: 56%;
+  left: 46%;
   transform: translate(-50%, -50%);
   background-color: transparent;
   color: white;
