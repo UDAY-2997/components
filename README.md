@@ -1,5 +1,5 @@
 <h1>React with components</h1>
-<h3>Click <a href="https://uday-2997.github.io/page-with-components/" target="_blank"> here</a> to check the work.</h3>
+<h3>Click <a href="https://uday-2997.github.io/components/" target="_blank"> here</a> to check the work.</h3>
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
