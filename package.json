@@ -1,7 +1,7 @@
 {
   "name": "components",
   "version": "0.1.0",
-  "homepage": "http://UDAY-2997.github.io/components-react",
+  "homepage": "http://UDAY-2997.github.io/components",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
